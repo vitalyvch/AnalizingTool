@@ -1,0 +1,16 @@
+@startuml
+scale 2.0
+start
+:Command Line Parsing;
+:Input file opening;
+
+while (EOF?) is (true)
+	:Load item from file;
+	:Parse loaded item;
+	:Process parsed item;
+note right
+	Main amount of work
+end note
+endwhile (false)
+stop
+@enduml

@@ -1,0 +1,7 @@
+@startuml
+skinparam componentStyle uml2
+scale 2.0
+
+package "AnalizingTool" {
+}
+@enduml

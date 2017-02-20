@@ -30,3 +30,18 @@ System requirements
 
  - Python 3.0
  - FS which support huge files, over few terrabytes.
+
+******
+
+Structural Component Diagram
+-----------------------------
+
+![DSGN_struct_comp_dia.png](DSGN_struct_comp_dia.png)
+
+******
+
+Behavioral Activity Diagram
+----------------------------
+
+![DSGN_beh_act_dia.png](DSGN_beh_act_dia.png)
+
