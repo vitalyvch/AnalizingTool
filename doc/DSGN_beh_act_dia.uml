@@ -1,18 +1,21 @@
 @startuml
-scale 2.0
+scale 3.0
 start
 :Command Line Parsing;
 :Input file(s) opening;
+:Instantiation of Descision Maker;
 
-while (!EOF && !False_decision_is_made) is (true)
+while (**""!""**EOF && **""!""**False_decision_is_made()) is (true)
 	:Load item from file;
 	:Parse loaded item;
 	:Submitting of parsed item
-	 to Decision Maker's FSM;
-note right
-	Main amount of work
-end note
+	 to Decision Maker;
+	note right
+		Main amount of work
+	end note
 endwhile (false)
+
 :Output of decision;
+:Freeing of resources;
 stop
 @enduml

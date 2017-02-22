@@ -19,9 +19,9 @@ Why we need this tool
 Used technologies
 ------------------
 
- - We are not limited in time, and need fast-development, flexibility and
-   customization at the same time, so we choose simple and popular scripting
-   language \- Python.
+ - There is no performance requirement, but there are fast-development,
+   flexibility and customization requirements, so we choose simple and popular
+   scripting language \- Python.
 
 ******
 
@@ -51,3 +51,9 @@ Decision Maker's FSM
 
 ![DSGN_decision_maker_fsm.png](DSGN_decision_maker_fsm.png)
 
+******
+
+Tasks
+------
+
+1. 
