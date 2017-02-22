@@ -29,7 +29,6 @@ System requirements
 --------------------
 
  - Python 3.0
- - FS which support huge files, over few terrabytes.
 
 ******
 
@@ -44,4 +43,11 @@ Behavioral Activity Diagram
 ----------------------------
 
 ![DSGN_beh_act_dia.png](DSGN_beh_act_dia.png)
+
+******
+
+Decision Maker's FSM
+--------------------
+
+![DSGN_decision_maker_fsm.png](DSGN_decision_maker_fsm.png)
 

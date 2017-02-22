@@ -2,9 +2,9 @@
 scale 2.0
 start
 :Command Line Parsing;
-:Input file opening;
+:Input file(s) opening;
 
-while (EOF?) is (true)
+while (!EOF && !False_decision_is_made) is (true)
 	:Load item from file;
 	:Parse loaded item;
 	:Submitting of parsed item

@@ -1,0 +1,13 @@
+@startuml
+scale 2.0
+
+[*] --> PMemFile_Compatible : SyscallRecord
+PMemFile_Compatible : Until we stay here our application is compatible with PMemFile
+
+[*] --> PMemFile_InCompatible : SyscallRecord
+PMemFile_InCompatible : If we get here our application is incompatible with PMemFile
+
+PMemFile_Compatible --> PMemFile_Compatible : SyscallRecord
+PMemFile_Compatible --> PMemFile_InCompatible : SyscallRecord
+
+@enduml
