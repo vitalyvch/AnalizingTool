@@ -2,6 +2,31 @@
 skinparam componentStyle uml2
 scale 2.0
 
-package "AnalizingTool" {
+package "Analizing Tool" {
+
+interface "Input File (s)" as IF
+
+IF -> [Parser]
+
+[Decision Maker FSM] as P_FSM
+note top of P_FSM
+	The most complex
+	component
+end note
+
+[Parser] -> P_FSM
+
+interface "Output" as OF
+note top of OF
+	Output of
+	decision
+end note
+
+P_FSM -> OF
+
+database "Cache" as DB
+
+DB -up- P_FSM
+
 }
 @enduml
